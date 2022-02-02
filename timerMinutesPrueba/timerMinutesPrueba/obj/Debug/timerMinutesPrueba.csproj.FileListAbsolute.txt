@@ -1,0 +1,11 @@
+C:\Users\mikel\source\repos\timerMinutesPrueba\timerMinutesPrueba\bin\Debug\timerMinutesPrueba.exe.config
+C:\Users\mikel\source\repos\timerMinutesPrueba\timerMinutesPrueba\bin\Debug\timerMinutesPrueba.exe
+C:\Users\mikel\source\repos\timerMinutesPrueba\timerMinutesPrueba\bin\Debug\timerMinutesPrueba.pdb
+C:\Users\mikel\source\repos\timerMinutesPrueba\timerMinutesPrueba\obj\Debug\timerMinutesPrueba.csproj.AssemblyReference.cache
+C:\Users\mikel\source\repos\timerMinutesPrueba\timerMinutesPrueba\obj\Debug\timerMinutesPrueba.csproj.SuggestedBindingRedirects.cache
+C:\Users\mikel\source\repos\timerMinutesPrueba\timerMinutesPrueba\obj\Debug\timerMinutesPrueba.Form1.resources
+C:\Users\mikel\source\repos\timerMinutesPrueba\timerMinutesPrueba\obj\Debug\timerMinutesPrueba.Properties.Resources.resources
+C:\Users\mikel\source\repos\timerMinutesPrueba\timerMinutesPrueba\obj\Debug\timerMinutesPrueba.csproj.GenerateResource.cache
+C:\Users\mikel\source\repos\timerMinutesPrueba\timerMinutesPrueba\obj\Debug\timerMinutesPrueba.csproj.CoreCompileInputs.cache
+C:\Users\mikel\source\repos\timerMinutesPrueba\timerMinutesPrueba\obj\Debug\timerMinutesPrueba.exe
+C:\Users\mikel\source\repos\timerMinutesPrueba\timerMinutesPrueba\obj\Debug\timerMinutesPrueba.pdb

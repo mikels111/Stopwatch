@@ -1,0 +1,11 @@
+C:\Users\mikel\source\repos\timerMinutesPrueba\timerMinutesPrueba\bin\Release\stopwatch1.0.exe.config
+C:\Users\mikel\source\repos\timerMinutesPrueba\timerMinutesPrueba\bin\Release\stopwatch1.0.exe
+C:\Users\mikel\source\repos\timerMinutesPrueba\timerMinutesPrueba\bin\Release\stopwatch1.0.pdb
+C:\Users\mikel\source\repos\timerMinutesPrueba\timerMinutesPrueba\obj\Release\stopwatch1.0.csproj.AssemblyReference.cache
+C:\Users\mikel\source\repos\timerMinutesPrueba\timerMinutesPrueba\obj\Release\stopwatch1.0.csproj.SuggestedBindingRedirects.cache
+C:\Users\mikel\source\repos\timerMinutesPrueba\timerMinutesPrueba\obj\Release\timerMinutesPrueba.Form1.resources
+C:\Users\mikel\source\repos\timerMinutesPrueba\timerMinutesPrueba\obj\Release\stopwatch1.Properties.Resources.resources
+C:\Users\mikel\source\repos\timerMinutesPrueba\timerMinutesPrueba\obj\Release\stopwatch1.0.csproj.GenerateResource.cache
+C:\Users\mikel\source\repos\timerMinutesPrueba\timerMinutesPrueba\obj\Release\stopwatch1.0.csproj.CoreCompileInputs.cache
+C:\Users\mikel\source\repos\timerMinutesPrueba\timerMinutesPrueba\obj\Release\stopwatch1.0.exe
+C:\Users\mikel\source\repos\timerMinutesPrueba\timerMinutesPrueba\obj\Release\stopwatch1.0.pdb
