@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\timerMinutesPrueba",
+    "\\timerMinutesPrueba\\timerMinutesPrueba"
   ],
+  "SelectedNode": "\\timerMinutesPrueba\\timerMinutesPrueba\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }
