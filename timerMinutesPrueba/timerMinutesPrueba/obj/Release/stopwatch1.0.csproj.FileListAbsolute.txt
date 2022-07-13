@@ -13,7 +13,6 @@ C:\Users\mikel\Source\Repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesP
 C:\Users\mikel\Source\Repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesPrueba\bin\Release\stopwatch1.0.exe
 C:\Users\mikel\Source\Repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesPrueba\bin\Release\stopwatch1.0.pdb
 C:\Users\mikel\Source\Repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesPrueba\obj\Release\stopwatch1.0.csproj.AssemblyReference.cache
-C:\Users\mikel\Source\Repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesPrueba\obj\Release\timerMinutesPrueba.Form1.resources
 C:\Users\mikel\Source\Repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesPrueba\obj\Release\stopwatch1.Properties.Resources.resources
 C:\Users\mikel\Source\Repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesPrueba\obj\Release\stopwatch1.0.csproj.GenerateResource.cache
 C:\Users\mikel\Source\Repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesPrueba\obj\Release\stopwatch1.0.csproj.CoreCompileInputs.cache
@@ -33,3 +32,5 @@ C:\Users\mikel\Source\Repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesP
 C:\Users\mikel\Source\Repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesPrueba\bin\Release\MySql.Data.xml
 C:\Users\mikel\Source\Repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesPrueba\obj\Release\stopwatch1.0.exe.config
 C:\Users\mikel\Source\Repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesPrueba\obj\Release\stopwatch1.0.csproj.CopyComplete
+C:\Users\mikel\source\repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesPrueba\obj\Release\stopwatch1.0.csproj.SuggestedBindingRedirects.cache
+C:\Users\mikel\source\repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesPrueba\obj\Release\timerMinutesPrueba.StopwatchForm.resources

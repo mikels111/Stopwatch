@@ -46,25 +46,27 @@ namespace timerMinutesPrueba
             this.label5 = new System.Windows.Forms.Label();
             this.restart = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.idtiempos = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Time = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tiemposBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.stopwatchDataSet1 = new stopwatch1.stopwatchDataSet1();
             this.Save = new System.Windows.Forms.Button();
             this.delete = new System.Windows.Forms.Button();
             this.stopwatchDataSet = new stopwatch1.stopwatchDataSet();
             this.tiemposBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tiemposTableAdapter = new stopwatch1.stopwatchDataSetTableAdapters.tiemposTableAdapter();
+            this.tiemposTableAdapter1 = new stopwatch1.stopwatchDataSet1TableAdapters.tiemposTableAdapter();
+            this.idtiempos = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.timeName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Time = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.idtiemposDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tiempoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tiemposBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.stopwatchDataSet1 = new stopwatch1.stopwatchDataSet1();
-            this.tiemposTableAdapter1 = new stopwatch1.stopwatchDataSet1TableAdapters.tiemposTableAdapter();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stopwatchDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tiemposBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tiemposBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stopwatchDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stopwatchDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tiemposBindingSource)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // dataGridViewTextBoxColumn
@@ -75,7 +77,7 @@ namespace timerMinutesPrueba
             // 
             this.start.BackColor = System.Drawing.Color.Transparent;
             this.start.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.start.Location = new System.Drawing.Point(41, 92);
+            this.start.Location = new System.Drawing.Point(43, 81);
             this.start.Name = "start";
             this.start.Size = new System.Drawing.Size(105, 31);
             this.start.TabIndex = 0;
@@ -87,7 +89,7 @@ namespace timerMinutesPrueba
             // stop
             // 
             this.stop.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stop.Location = new System.Drawing.Point(176, 92);
+            this.stop.Location = new System.Drawing.Point(178, 81);
             this.stop.Name = "stop";
             this.stop.Size = new System.Drawing.Size(105, 31);
             this.stop.TabIndex = 0;
@@ -106,7 +108,7 @@ namespace timerMinutesPrueba
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Verdana", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(114, 27);
+            this.label5.Location = new System.Drawing.Point(116, 16);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(245, 45);
             this.label5.TabIndex = 6;
@@ -115,7 +117,7 @@ namespace timerMinutesPrueba
             // restart
             // 
             this.restart.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.restart.Location = new System.Drawing.Point(305, 92);
+            this.restart.Location = new System.Drawing.Point(307, 81);
             this.restart.Name = "restart";
             this.restart.Size = new System.Drawing.Size(105, 31);
             this.restart.TabIndex = 0;
@@ -133,6 +135,9 @@ namespace timerMinutesPrueba
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
@@ -149,7 +154,7 @@ namespace timerMinutesPrueba
             this.dataGridView1.ColumnHeadersHeight = 30;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.idtiempos,
-            this.Name,
+            this.timeName,
             this.Time,
             this.idtiemposDataGridViewTextBoxColumn,
             this.nombreDataGridViewTextBoxColumn,
@@ -164,7 +169,7 @@ namespace timerMinutesPrueba
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
-            this.dataGridView1.Location = new System.Drawing.Point(41, 175);
+            this.dataGridView1.Location = new System.Drawing.Point(20, 192);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(30, 3, 3, 3);
             this.dataGridView1.Name = "dataGridView1";
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -186,28 +191,19 @@ namespace timerMinutesPrueba
             this.dataGridView1.RowTemplate.Height = 40;
             this.dataGridView1.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(369, 300);
+            this.dataGridView1.Size = new System.Drawing.Size(452, 615);
             this.dataGridView1.TabIndex = 7;
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.DataGridView1_SelectionChanged);
             // 
-            // idtiempos
+            // tiemposBindingSource1
             // 
-            this.idtiempos.DataPropertyName = "idtiempos";
-            this.idtiempos.HeaderText = "idtiempos";
-            this.idtiempos.Name = "idtiempos";
-            this.idtiempos.Visible = false;
+            this.tiemposBindingSource1.DataMember = "tiempos";
+            this.tiemposBindingSource1.DataSource = this.stopwatchDataSet1;
             // 
-            // Name
+            // stopwatchDataSet1
             // 
-            this.Name.DataPropertyName = "nombre";
-            this.Name.HeaderText = "Name";
-            this.Name.Name = "Name";
-            // 
-            // Time
-            // 
-            this.Time.DataPropertyName = "tiempo";
-            this.Time.HeaderText = "Time";
-            this.Time.Name = "Time";
+            this.stopwatchDataSet1.DataSetName = "stopwatchDataSet1";
+            this.stopwatchDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // Save
             // 
@@ -243,6 +239,29 @@ namespace timerMinutesPrueba
             // 
             this.tiemposTableAdapter.ClearBeforeFill = true;
             // 
+            // tiemposTableAdapter1
+            // 
+            this.tiemposTableAdapter1.ClearBeforeFill = true;
+            // 
+            // idtiempos
+            // 
+            this.idtiempos.DataPropertyName = "idtiempos";
+            this.idtiempos.HeaderText = "idtiempos";
+            this.idtiempos.Name = "idtiempos";
+            this.idtiempos.Visible = false;
+            // 
+            // timeName
+            // 
+            this.timeName.DataPropertyName = "nombre";
+            this.timeName.HeaderText = "Name";
+            this.timeName.Name = "timeName";
+            // 
+            // Time
+            // 
+            this.Time.DataPropertyName = "tiempo";
+            this.Time.HeaderText = "Time";
+            this.Time.Name = "Time";
+            // 
             // idtiemposDataGridViewTextBoxColumn
             // 
             this.idtiemposDataGridViewTextBoxColumn.DataPropertyName = "idtiempos";
@@ -264,49 +283,44 @@ namespace timerMinutesPrueba
             this.tiempoDataGridViewTextBoxColumn.Name = "tiempoDataGridViewTextBoxColumn";
             this.tiempoDataGridViewTextBoxColumn.Visible = false;
             // 
-            // tiemposBindingSource1
+            // panel1
             // 
-            this.tiemposBindingSource1.DataMember = "tiempos";
-            this.tiemposBindingSource1.DataSource = this.stopwatchDataSet1;
-            // 
-            // stopwatchDataSet1
-            // 
-            this.stopwatchDataSet1.DataSetName = "stopwatchDataSet1";
-            this.stopwatchDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // tiemposTableAdapter1
-            // 
-            this.tiemposTableAdapter1.ClearBeforeFill = true;
+            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.start);
+            this.panel1.Controls.Add(this.stop);
+            this.panel1.Controls.Add(this.restart);
+            this.panel1.Location = new System.Drawing.Point(12, 4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(472, 136);
+            this.panel1.TabIndex = 13;
             // 
             // StopwatchForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(27)))), ((int)(((byte)(39)))));
-            this.ClientSize = new System.Drawing.Size(474, 500);
+            this.ClientSize = new System.Drawing.Size(484, 400);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.delete);
             this.Controls.Add(this.Save);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.restart);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.stop);
-            this.Controls.Add(this.start);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
-            this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(490, 539);
-            this.MinimumSize = new System.Drawing.Size(490, 39);
+            this.MinimumSize = new System.Drawing.Size(500, 439);
+            this.Name = "StopwatchForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Stopwatch";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form_keypress);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stopwatchDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tiemposBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tiemposBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.stopwatchDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stopwatchDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tiemposBindingSource)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -333,13 +347,14 @@ namespace timerMinutesPrueba
         private DataGridView dataGridView1;
         private Button Save;
         private Button delete;
+        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn idtiempos;
-        private DataGridViewTextBoxColumn Name;
+        private DataGridViewTextBoxColumn timeName;
         private DataGridViewTextBoxColumn Time;
         private DataGridViewTextBoxColumn idtiemposDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn nombreDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn tiempoDataGridViewTextBoxColumn;
-        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn;
+        private Panel panel1;
     }
 }
 

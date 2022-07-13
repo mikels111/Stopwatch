@@ -28,8 +28,8 @@ C:\Users\mikel\Source\Repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesP
 C:\Users\mikel\Source\Repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesPrueba\bin\Debug\K4os.Compression.LZ4.dll
 C:\Users\mikel\Source\Repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesPrueba\bin\Debug\K4os.Hash.xxHash.dll
 C:\Users\mikel\Source\Repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesPrueba\bin\Debug\System.Buffers.dll
-C:\Users\mikel\Source\Repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesPrueba\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\mikel\Source\Repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesPrueba\bin\Debug\MySql.Data.xml
 C:\Users\mikel\Source\Repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesPrueba\obj\Debug\stopwatch1.0.exe.config
 C:\Users\mikel\Source\Repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesPrueba\obj\Debug\stopwatch1.0.csproj.CopyComplete
 C:\Users\mikel\Source\Repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesPrueba\obj\Debug\timerMinutesPrueba.StopwatchForm.resources
+C:\Users\mikel\source\repos\mikels111\Stopwatch\timerMinutesPrueba\timerMinutesPrueba\obj\Debug\stopwatch1.0.csproj.SuggestedBindingRedirects.cache
