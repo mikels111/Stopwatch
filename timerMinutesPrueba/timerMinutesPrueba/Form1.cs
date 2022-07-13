@@ -91,6 +91,10 @@ namespace timerMinutesPrueba
         private void restart_Click(object sender, EventArgs e)
         {
             RestartTimer();
+            selectedTime.SetValue("0", 0);
+            selectedTime.SetValue("0", 1);
+            selectedTime.SetValue("0", 2);
+            selectedTime.SetValue("0", 3);
             label5.Text = zero;
         }
 
@@ -270,6 +274,12 @@ namespace timerMinutesPrueba
                     }
                 }
             }
+        }
+
+        private void ControlError(object sender, DataGridViewDataErrorEventArgs e)
+        {
+            Console.WriteLine("Error-->"+e.Exception.ToString());
+            
         }
     }
 }
